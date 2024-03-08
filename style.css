@@ -17,6 +17,7 @@ a {
 .container {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 /* Header Styles */
@@ -27,7 +28,7 @@ header {
     font-weight: 100vw;
 }
 
-.logo {
+nav .logo {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -41,6 +42,10 @@ nav ul {
     list-style-type: none;
     color: #e5e7eb;
     height: 60px;
+}
+
+nav a {
+    color: inherit;
 }
 
 
