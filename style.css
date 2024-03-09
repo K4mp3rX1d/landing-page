@@ -15,7 +15,7 @@ a {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 1020px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -24,7 +24,6 @@ a {
 header {
     color: white;
     background-color: #1f2937;
-    height: 90vh;
     font-weight: 100vw;
 }
 
@@ -49,7 +48,59 @@ nav a {
 }
 
 
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 80vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
-.secondary-text {
+.hero-text, .hero-image {
+    flex-basis: 400px;
+    flex-shrink: 1;
+}
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+.hero .secondary-text {
     color: #e5e7eb ;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #3882f6;
+    display: inline-block;
+    padding: 8px 36px;
+    border-radius: 8px;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+    background-color: #ffffff;
+    opacity: 50%;
+    flex-shrink: 2;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 640px) {
+    .hero {
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 100%;
+        gap: 40px;
+    }
 }
