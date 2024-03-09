@@ -150,7 +150,7 @@ nav a {
 
 .quote figure {
     display: block;
-    max-width: 750px;
+    max-width: 750px;   
     margin: 0 auto;
 }
 
@@ -168,6 +168,30 @@ nav a {
     font-style: normal;
     text-align: right;
     padding-top: 10px;
+}
+
+
+/* Action Section */
+.action {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f9faf8;
+}
+
+.call-to-action {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px
+}
+
+.action .button {
+    border: 2px solid;
+    flex-shrink: 0;
 }
 
 
