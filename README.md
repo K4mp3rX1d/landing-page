@@ -1,4 +1,4 @@
-# landing-page
+# Landing Page
 This Odin project demonstrate my understanding and usability of HTML, CSS and Flexbox.
 
 This project is live at: [github.io](https://camperkid.github.io/landing-page/).
