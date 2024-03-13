@@ -9,4 +9,4 @@ Most of the images used in this project are from [Unsplash](https://unsplash.com
 * Ravi Pinisetti
 * Zoltan tasi
 
-Some of the image creator couldn't be taced, sorry for that.
+Some of the image creator couldn't be traced, sorry for that.
